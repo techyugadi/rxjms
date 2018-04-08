@@ -4,7 +4,7 @@ Once we retrieve an Observable / Flowable, the JMS messages can be manipulated u
 
 For usage, please browse through the sample programs in the sample directory.
 
-To test the sample programs, we recommend the following steps:
+To test the sample programs, we recommend the following steps:  
 i. Install OpenMQ,the reference implementation of the JMS secification on your machine. You can download OpenMQ from: https://javaee.github.io/openmq/Downloads.html  
 ii. Start OpenMQ broker\
 iii. Start OpenMQ admin server and create a QueueConnectionFactory named 'QCF', a Physical Queue named 'myqueue', and a JNDI resource mapped to the physical queue named 'myQ'\
