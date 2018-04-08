@@ -21,6 +21,12 @@ import com.techyugadi.reactive.rxjms.JMSObservable;
 
 import io.reactivex.Observable;
 
+/*
+ * To run this application, first install OpenMQ on your local machine
+ * Then follow the steps outlined in the README
+ * The JMS broker must run on localhost on default port (7676)
+ */
+
 public class SimpleApp {
 	
 	private static String fileUrl = "file:///tmp";
